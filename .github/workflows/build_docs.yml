@@ -1,4 +1,4 @@
-name: "Pull Request Docs Check"
+name: "GitHub Pages documentation deploy"
 on:
   push:
     branches: [ main ]
