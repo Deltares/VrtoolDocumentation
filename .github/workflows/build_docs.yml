@@ -8,6 +8,9 @@ jobs:
   docs:
     name: Ubuntu docs
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
     steps:
       - name: Checkout source
         uses: actions/checkout@v2
@@ -24,6 +27,4 @@ jobs:
           activate-environment: vrtooldocs_env
 
       - name: Build docs
-        run: |
-          conda activate vrtooldocs_env
-          make html
+        run: make html
