@@ -36,7 +36,7 @@ A quick look at what they mean:
 
 # How to write documentation
 
-We will be using [sphinx](https://www.sphinx-doc.org/en/master/) to generate our documentation written in [markdown language](https://markdown-it.github.io/). Extensions available for sphinx + markdown can be found in the [myst-parser](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html) documentation.
+We will be using [sphinx](https://www.sphinx-doc.org/en/master/) to generate our documentation written in [markdown language](https://markdown-it.github.io/) or [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html). Extensions available for sphinx + markdown can be found in the [myst-parser](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html) documentation.
 
 Steps to extend the current documentation using [GIT](https://git-scm.com/) with the command line (use [GitHub Desktop](https://desktop.github.com/) if you are not familiar with `GIT`):
 0. [Install the repository locally](#install-the-repository).
