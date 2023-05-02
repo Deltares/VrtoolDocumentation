@@ -24,8 +24,8 @@ jobs:
           environment-file: .config/environment.yml
           activate-environment: vrtooldocs_env
 
-      - name: Build docs
-        run: make html
+      # - name: Build docs
+      #   run: make html
 
       - name: Upload to GitHub Pages
         if: ${{ github.event_name != 'pull_request'}}
