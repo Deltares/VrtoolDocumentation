@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   docs:
-    name: Ubuntu docs
+    name: Build (and deploy) documentation
     runs-on: ubuntu-latest
     defaults:
       run:
