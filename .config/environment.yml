@@ -3,4 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
+  - conda-forge::python=3.10
+  - conda-forge::sphinx
+  - conda-forge::jupytext
+  - conda-forge::nbsphinx
+  - conda-forge::myst-parser
+  - conda-forge::sphinx-book-theme
+  - conda-forge::sphinx-copybutton
