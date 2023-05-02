@@ -8,9 +8,8 @@ Welcome to the Vrtool Suite documentation!
 
 .. toctree::
    :titlesonly:
-   :hidden:
 
-   tutorials/vrtool_tutorial
+   tutorials/index
 
 
 
