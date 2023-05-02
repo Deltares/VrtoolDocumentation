@@ -28,3 +28,13 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+
+html_context = {
+    "github_url": "https://github.com",  # or your GitHub Enterprise interprise
+    "github_user": "Deltares",
+    "github_repo": "VrtoolDocumentation",
+    "github_version": "main",  # FIXME
+    "doc_path": "docs",
+    "default_mode": "light",
+}
