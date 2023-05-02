@@ -8,4 +8,4 @@ This is the repository containing all the user's  documentation related to the e
 - Data Dashboard (to be defined).
 
 # How to write documentation
-We will be using [sphinx](https://www.sphinx-doc.org/en/master/) to generate our documentation written in [markdown language](https://markdown-it.github.io/)
+We will be using [sphinx](https://www.sphinx-doc.org/en/master/) to generate our documentation written in [markdown language](https://markdown-it.github.io/). Extensions available for sphinx + markdown can be found in the [myst-parser](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html) documentation.
