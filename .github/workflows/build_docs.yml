@@ -1,20 +1,37 @@
 name: "Pull Request Docs Check"
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 permissions:
     contents: write
+
 jobs:
   docs:
+    name: Ubuntu docs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup environment
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          miniforge-variant: Mambaforge
+          channels: conda-forge, defaults
+          channel-priority: strict
+          environment-file: .config/environment.yml
+          activate-environment: vrtooldocs_env
+
       - uses: ammaraskar/sphinx-action@master
         with:
           docs-folder: "docs/"
-      - name: Deploy
-          uses: peaceiris/actions-gh-pages@v3
-          if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-          with:
-            publish_branch: gh-pages
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: build/
-            force_orphan: true
+
+        - name: Upload to GitHub Pages
+        if: ${{ github.event_name != 'pull_request'}}
+        uses: peaceiris/actions-gh-pages@v3.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/html
+          force_orphan: true
