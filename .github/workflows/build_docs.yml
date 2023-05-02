@@ -2,6 +2,7 @@ name: "Sphinx build documentation"
 on:
   pull_request:
     branches: [ main ]
+    types: [opened, synchronize]
 
 jobs:
   docs:
