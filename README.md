@@ -28,6 +28,7 @@ A quick look at what they mean:
 * __.config/__ Contains the conda environment file to required to build using sphinx.
 * __.github/__ Contains the workflows required by GitHub to build and deploy the documentation.
 * __build/__ Output directory where `sphinx` will place the documentation __as a website__.
+    * This directory gets generated during `make html`.
 * __vrtool_docs/__ Source directory containing the documentation to be published.
     * This is where [documentation should be added](#how-to-write-documentation)
     * `conf.py` describes to `sphinx` how to build the website.
