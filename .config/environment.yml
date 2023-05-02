@@ -10,3 +10,4 @@ dependencies:
   - conda-forge::myst-parser
   - conda-forge::sphinx-book-theme
   - conda-forge::sphinx-copybutton
+  - conda-forge::sphinx_rtd_theme
