@@ -3,12 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Veiligheidsrendement Suite documentation!
+Welcome to the Vrtool Suite documentation!
 =======================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :titlesonly:
+   :hidden:
+
+   tutorials/vrtool_tutorial
 
 
 
