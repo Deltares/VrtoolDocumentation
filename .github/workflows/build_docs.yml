@@ -28,7 +28,7 @@ jobs:
         with:
           docs-folder: "docs/"
 
-        - name: Upload to GitHub Pages
+      - name: Upload to GitHub Pages
         if: ${{ github.event_name != 'pull_request'}}
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:
