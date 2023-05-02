@@ -3,9 +3,6 @@ on:
   pull_request:
     branches: [ main ]
 
-permissions:
-    contents: write
-
 jobs:
   docs:
     name: Ubuntu docs
