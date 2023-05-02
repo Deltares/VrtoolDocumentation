@@ -24,4 +24,6 @@ jobs:
           activate-environment: vrtooldocs_env
 
       - name: Build docs
-        run: make html
+        run: |
+          conda activate vrtooldocs_env
+          make html
