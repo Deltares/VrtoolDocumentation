@@ -24,9 +24,8 @@ jobs:
           environment-file: .config/environment.yml
           activate-environment: vrtooldocs_env
 
-      - uses: ammaraskar/sphinx-action@master
-        with:
-          docs-folder: "docs/"
+      - name: Build docs
+        run: make html
 
       - name: Upload to GitHub Pages
         if: ${{ github.event_name != 'pull_request'}}
