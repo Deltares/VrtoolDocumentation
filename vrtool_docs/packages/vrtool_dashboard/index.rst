@@ -1,9 +1,5 @@
-Tutorials
+Dashboard
 =======================================
 
 .. toctree::
    :maxdepth: 1
-
-   vrtool_tutorial
-
-

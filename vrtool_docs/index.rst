@@ -4,12 +4,13 @@
    contain the root `toctree` directive.
 
 Welcome to the Vrtool Suite documentation!
-=======================================
+============================================
 
 .. toctree::
    :titlesonly:
 
    tutorials/index
+   packages/index
 
 
 
