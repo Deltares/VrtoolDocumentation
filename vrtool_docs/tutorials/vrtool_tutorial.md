@@ -9,9 +9,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
-  - pip
+  - conda-forge::python=3.10
   - conda-forge::openturns=1.19
+  - pip
 ```
 Which we can create in our working directory as follows: `conda env create -f environment.yml -p vrtool_env`.
 
