@@ -1,3 +1,5 @@
 # (IDE) Environments
 .env
 .vscode
+build
+.idea
