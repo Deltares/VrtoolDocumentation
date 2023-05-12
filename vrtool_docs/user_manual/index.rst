@@ -1,4 +1,4 @@
-Tutorials
+user_manual
 =======================================
 
 .. toctree::
