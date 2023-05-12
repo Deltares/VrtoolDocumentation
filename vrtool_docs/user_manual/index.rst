@@ -7,8 +7,9 @@ user_manual
    wat_is_waterveiligheidsrendement
    doel
    disclaimers
-   aan_de_slag/structuur
-   aan_de_slag/preprocessor_uitleg
-   aan_de_slag/vrtool_uitleg
-   aan_de_slag/postprocessor_uitleg
+   aan_de_slag
    waar_moet_je_op_letten
+   rekenmodel_betrouwbaarheid
+   rekenmodel_maatregel
+   optimalisatie_uitleg
+   kosten_uitleg
