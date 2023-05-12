@@ -11,6 +11,7 @@ Welcome to the Vrtool Suite documentation!
 
    tutorials/index
    packages/index
+   user_manual/index
 
 
 
