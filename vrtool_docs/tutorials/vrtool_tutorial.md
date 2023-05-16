@@ -38,7 +38,22 @@ Since `vrtool` version `0.0.2` it is required to have a `.json` configuration fi
 ## Running a D-Stability model.
 For a `D-Stability` run it is needed to add its respective console as done for [GeoLib](https://deltares.github.io/GEOLib/latest/user/setup.html) (`vrtool` depends on `d-geolib`). The console directory needs then to be located directly under our `externals` directory. GeoLib implicitly adds to our externals path the subdirectory `\\DStabilityConsole` and the console `D-Stability Console.exe`.
 
-This means, that in our directory `"C:\\repos\\external_libraries` we will need to place the `DStabilityConsole` and all of its contents such as the path to the console can be found`C:\\repos\\external_libraries\\DStabilityConsole\\D-Stability Console.exe`. We do not need to provide this path, as its __implicit__ by GeoLib.
+This means, that in our directory `"C:\\repos\\external_libraries` we will need to place the `DStabilityConsole` and all of its contents such that the path to the console can be found `C:\\repos\\external_libraries\\DStabilityConsole\\D-Stability Console.exe`. We do not need to provide this full path, as it is __implicit__ by GeoLib, we only need to add the line `"externals": "C:\\repos\\external_libraries",` to the  `json` configuration file.
+
+```
+C:/
+├── ...
+├── repos/
+    ├── ...
+    ├── external_libraries/
+        ├── ...
+        ├── DStabilityConsole/
+            ├── ...
+            ├── D-Stability Console.exe
+```
+
+When running the tool as a sandbox, this property (`externals`) can be set in the `VrtoolConfig` dataclass.
+
 
 ## Running the CLI
 If the installation was correct we should now be able to run the `vrtool` module directly from the command line. Let's quickly verify it with the help command:
