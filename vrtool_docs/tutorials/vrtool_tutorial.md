@@ -99,7 +99,7 @@ Elapsed time for greedy algorithm: 4.34426474571228
 ```
 
 ## "Sandboxing"
-This way of working gives the modeler the option to fully control how to run a `VeiligheidsRendement` model. Let's demonstrate it by simply replicating one of the tests present in the `vrtool` repository:
+This way of working gives the modeler the option to fully ![img.png](img.png)control how to run a `VeiligheidsRendement` model. Let's demonstrate it by simply replicating one of the tests present in the `vrtool` repository:
 
 ```python
 from pathlib import Path

@@ -1,5 +1,9 @@
 # (IDE) Environments
 .env
 .vscode
+.idea
+
+
+# Sphinx
 build
 .idea
