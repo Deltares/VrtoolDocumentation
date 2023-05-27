@@ -1,4 +1,4 @@
-# 1. Wat is veiligeheidsrendement
+# 1. Wat is veiligheidsrendement
 
 - Kerngedachte van veiligheidsrendement
 - 
