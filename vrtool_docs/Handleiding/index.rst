@@ -4,7 +4,7 @@ user_manual
 .. toctree::
    :maxdepth: 1
 
-   wat_is_waterveiligheidsrendement
+   wat_is_veiligheidsrendement
    doel
    disclaimers
    aan_de_slag
