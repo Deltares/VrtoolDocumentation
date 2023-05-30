@@ -9,9 +9,9 @@ Handleiding veiligheidsrendement
 .. toctree::
    :titlesonly:
 
-   tutorials/index
-   handleiding/index
-   packages/index
+   1_handleiding/index
+   2_tutorials/index
+   3_packages/index
 
 
 
