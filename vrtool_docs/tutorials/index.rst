@@ -4,7 +4,8 @@ Tutorials
 .. toctree::
    :maxdepth: 1
 
-   vrtool_tutorial
+   vakindeling_genereren
    hydraring_preprocessing
+   vrtool_tutorial
 
 

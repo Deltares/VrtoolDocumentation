@@ -9,9 +9,8 @@ Welcome to the Vrtool Suite documentation!
 .. toctree::
    :titlesonly:
 
-   tutorials/index
-   packages/index
-   user_manual/index
+   Tutorials/index
+   Handleiding/index
 
 
 
