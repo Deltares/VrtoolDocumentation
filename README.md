@@ -56,9 +56,11 @@ Steps to extend the current documentation using [GIT](https://git-scm.com/) with
     2. On the selector, the left side should be `base: main`, the right side your work branch:
         * `base: main` <- `compare: docs/{{your_branch_name}}`
     3. A review will be done on your branch, some changes might be requested.
-    4. The issue is
+    4. The pull-request is accepted and a merge can be done.
 6. Verify the published pages are correct.
     * __NOTE!__: The automatic build could have failed. Contact a project administrator if this happened.
+
+> Important! A pull-request is highly recommended for correct build and publishing of the pages.
 
 # Install the repository.
 Although not required, it is possible to checkout and install the repository locally to build and verify the documents prior to their publishing, we assume you are familiar and have installed [Anaconda](https://www.anaconda.com/download) or [miniconda](https://docs.conda.io/en/latest/miniconda.html). To do so, simply follow these steps from command line:
