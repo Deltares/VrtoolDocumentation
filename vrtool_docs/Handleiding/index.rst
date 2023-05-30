@@ -1,4 +1,4 @@
-handleiding
+Handleiding
 =======================================
 
 .. toctree::
