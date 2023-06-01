@@ -2,10 +2,10 @@ Achtergronden
 =======================================
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Veiligheidsrendement
    Betrouwbaarheidsmodellen
-   Maatregelen
-   Kostenfuncties
+   Maatregelen\index
+   Kosten\index
    Optimalisatiealgoritme
