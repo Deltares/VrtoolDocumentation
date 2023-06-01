@@ -2,7 +2,7 @@ Handleiding
 =======================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Veiligheidsrendement
    Aan de slag
