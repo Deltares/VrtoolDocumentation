@@ -15,6 +15,7 @@ De preprocessor bestaat uit een python code die te installeren is via [LINK NAAR
 De VRTOOL bestaat uit een python code die te installeren is via [LINK NAAR VRTOOL](link)
 
 
+
 ### Dashboard
 
 Het Dashboard bestaat uit een python code die te installeren is via [LINK NAAR Dashboard](link)
@@ -22,7 +23,21 @@ Het Dashboard bestaat uit een python code die te installeren is via [LINK NAAR D
 
 ## Python environment bouwen
 
-Om miniconda of anaconda te gebruiken om de preprocessing of de VRTOOL te draaien is het belangrijk om een nieuwe python enviroment aan te maken. Dit kan makkelijk door de command window van anaconda of miniconda te openen en de volgende twee commandline te draaien.
+Om miniconda of anaconda te gebruiken om de preprocessing of de VRTOOL te draaien is het belangrijk om een nieuwe python enviroment aan te maken. 
+
+Dit kan door eerst een `environment.yml` file aan te maken met daarin:
+```
+name: vrtool_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::python=3.10
+  - conda-forge::openturns=1.19
+  - pip
+```
+
+En daarna de command window van anaconda of miniconda te openen en de volgende twee commandline te draaien.
 
 1. `conda env create -f environment.yml -p vrtool_env`
 2. `conda activate vrtool_env`
