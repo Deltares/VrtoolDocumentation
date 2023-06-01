@@ -1,6 +1,6 @@
 # Kostenfuncties dijkbekleding
 
-De kost van een maatregel wordt berekend op basis van de eenheidsprijzen uit KOSWAT (bron: 20220606 KOSWAT (LBK202201 v1.0)), die in de volgende tabel worden weergeven. In deze studie maken we gebruik van de informatie die in de gemarkeerde rijen staat:
+De kost van een dijkbekleding maatregel wordt berekend op basis van de eenheidsprijzen uit KOSWAT (bron: 20220606 KOSWAT (LBK202201 v1.0)), die in de volgende tabel worden weergeven. In deze studie maken we gebruik van de informatie die in de gemarkeerde rijen staat:
 - De kosten van opnemen en afvoeren van de oude steenbekleding
 - De kosten van leveren en aanbrengen van betonzuilen (de nieuwe steenbekleding), afhankelijk van de toplaagdikte
 

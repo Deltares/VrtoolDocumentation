@@ -23,7 +23,7 @@ Effectief worden er per locatie en per zichtjaar: 4 terugkeertijden x aantal wat
 De resultaten van de Q-variant berekeningen (modeltype ‘golfklap’ en ‘golfoploop’) worden eerst vertaald naar tijdsverlopen van hydraulische belastingen (waterstand, Hs, Tp en golfinvalshoek). Hier wordt de aanpak uit de “Schematiseringshandleiding Grasbekleding” aangehouden. Eerst wordt het tijdsverloop van de lokale waterstand afgeleid. Dat verschilt per watersysteem. De golfcondities uit de Q-variant berekeningen worden geprojecteerd op de waterstandsverlopen om de golfcondities in de tijd te verkrijgen. Een voorbeeld van de tijdsverlopen van hydraulische belastingen wordt in Figuur 1 weergegeven.
 
 
-![Fig1_voorbeeld tijdsverlopen van hydraulische belastingen voor een terugkeertijd.png](Fig1_voorbeeld tijdsverlopen van hydraulische belastingen voor een terugkeertijd.png)
+![Fig1_preprocessingDijkbekleding.png](Fig1_preprocessingDijkbekleding.png)
 
 Figuur 1 Voorbeeld tijdsverlopen van hydraulische belastingen voor een terugkeertijd; watersysteem ‘kust’.
 
@@ -34,7 +34,7 @@ De tijdsverlopen van hydraulische belastingen (per locatie, per zichtjaar en per
 
 Naast de tijdsverlopen van hydraulische belastingen gebruikt DiKErnel ook het dijkprofiel en tan(alfa)  als invoer. Figuur 2 presenteert de te beschouwen posities op het buitentalud voor het geval als de maximale waterstand tussen de grenzen van de grasbekleding valt.
 
-![Voorbeeld van de te beschouwen posities op het buitentalud uitgaande van hoogte overgang.png](Voorbeeld van de te beschouwen posities op het buitentalud uitgaande van hoogte overgang.png)
+![Fig2_preprocessingDijkbekleding.png](Fig2_preprocessingDijkbekleding.png)
 
 Figuur 2 Voorbeeld van de te beschouwen posities op het buitentalud uitgaande van hoogte overgang = 3 m+NAP en de maximale waterstand (blauw gestipte lijn) die tussen de grenzen van de grasbekleding vaalt; rode punten: golfklap, blauw punt: golfoploop.
 
@@ -46,7 +46,7 @@ Aangenomen wordt dat de grasbekleding niet aan de belasting voldoet indien SF<1.
 
 Effectief wordt er per locatie, per zichtjaar en per niveau overgang een relatie tussen de terugkeertijd en de veiligheidsfactor verkregen. Figuur 3 geeft een voorbeeld van de relatie. De grafiek toont aan dat de grasbekleding (vanaf 1.0 t/m 6.11 m+NAP) niet aan de opgelegde belasting voldoet (SF<1.0). Verder wordt de veiligheidsfactor lager naarmate de belasting hoger wordt (hoge terugkeertijd), dat is conform de verwachtingen.
 
-![Voorbeeld van een relatie tussen de terugkeertijd en de veiligheidsfactor SF voor overgang.png](Voorbeeld van een relatie tussen de terugkeertijd en de veiligheidsfactor SF voor overgang.png)
+![Fig3_preprocessingDijkbekleding.png](Fig3_preprocessingDijkbekleding.png)
 
 Figuur 3 Voorbeeld van een relatie tussen de terugkeertijd en de veiligheidsfactor (SF) voor overgang = 1 m+NAP (blauw gestipte lijn); de zwarte lijn geeft SF = 1.0 aan.
 
@@ -58,7 +58,7 @@ Voor sommige gevallen kan de bi-sectie methode geen resultaten gegeven. Dat gebe
 
 De bovenstaande stappen worden per locatie en per zichtjaar herhaald voor de verschillende niveaus van de overgang. Dat leidt uiteindelijk tot een relatie tussen de overgang en de faalkans van de grasbekleding. Figuur 4 geeft een voorbeeld van een dergelijke relatie.
 
-![Voorbeeld van een relatie tussen de overgang en de faalkans van de grasbekleding.png](Voorbeeld van een relatie tussen de overgang en de faalkans van de grasbekleding.png)
+![Fig4_preprocessingDijkbekleding.png](Fig4_preprocessingDijkbekleding.png)
 
 Figuur 4 Voorbeeld van een relatie tussen de overgang en de faalkans van de grasbekleding.
 
@@ -84,7 +84,7 @@ Deze maximale toplaagdikte wordt aangehouden als de toplaagdikte met de faalkans
 De analyse wordt per locatie herhaald voor verschillende zichtjaren, terugkeertijden en dijkvlakken. Figuur 5 geeft een voorbeeld van de verkregen relaties tussen de toplaagdikte en de faalkans van de steenbekleding.
 
 
-![Voorbeeld van een relatie tussen de toplaagdikte en de faalkans van de steenbekleding.png](Voorbeeld van een relatie tussen de toplaagdikte en de faalkans van de steenbekleding.png)
+![Fig5_preprocessingDijkbekleding.png](Fig5_preprocessingDijkbekleding.png)
 
 Figuur 5 Voorbeeld van een relatie tussen de toplaagdikte en de faalkans van de steenbekleding.
 

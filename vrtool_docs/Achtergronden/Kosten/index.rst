@@ -1,4 +1,4 @@
-Kosten
+Kostenfuncties
 =======================================
 
 .. toctree::
