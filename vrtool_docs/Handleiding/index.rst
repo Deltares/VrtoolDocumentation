@@ -10,9 +10,3 @@ Handleiding
    Analyses met de VRTool
    Gebruik van het Dashboard
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
