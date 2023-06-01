@@ -55,6 +55,9 @@ De basis voor het genereren van de waterstanden en overslag berekeningen is het 
 | hrlocation/hr_koppel	          | Verplicht | Verwijzing naar de bijbehorende locatie in de hydraulische database. Hrlocation kan worden afgeleid o.b.v. hr_koppel                                                                                                                                       	                                                                                          |
 
 
+#### Automatisch genereren van invoer voor Hydra-Ring berekeningen
+
+
 ### Vullen van een invoerbestand voor Piping
 
 De basis voor het genereren van de piping berekeningen is het invoerbestand `Piping_default.csv`. Dit bestand heeft de volgende kolommen die moeten worden gevuld:
@@ -103,9 +106,9 @@ Deze workflow kan worden aangeroepen vanuit de terminal (bijv. via Anaconda Prom
     python '/pad/naar/generate_vakindeling_workflow.py' 'traject-1' '/pad/naar/vakindeling.csv'
 
 Waarbij:
-- ``'/pad/naar/generate_vakindeling_workflow.py'`` vervangen moet worden met de pad naar de python code
-- ``'traject-1'`` vervagen moet worden door de officiële trajectnaam 
-- ``'/pad/naar/vakindeling.csv'`` vervangen moet worden met de pad moet verwijzen naar de vakindeling.csv.
+- ``'/pad/naar/generate_vakindeling_workflow.py'`` vervangen moet worden met de pad naar de python code `generate_vakindeling_workflow.py`.
+- ``'traject-1'`` vervagen moet worden door de officiële trajectnaam.
+  - ``'/pad/naar/vakindeling.csv'`` vervangen moet worden met de pad naar `vakindeling.csv`.
 
 **Let op** dat de paden relatief zijn tot de locatie in de console.
 
@@ -122,7 +125,7 @@ Een voorbeeld van een vakindeling volgend uit de workflow is onderstaand weergeg
 
 ## Workflow Hydra-Ring
 
-Als voorbereiding op analyses met de `VRTOOL` moet een aantal berekeningen gemaakt worden met `Hydra-Ring`. Als eerste moet de benodigde invoer worden klaargezet in het bestand `HR_default.csv`. Dit bevat alle informatie voor de berekeningen voor overslag en waterstand. 
+Als voorbereiding op de analyses met de `VRTOOL` moet een aantal berekeningen gemaakt worden met `Hydra-Ring`. Als eerste moet de benodigde invoer worden klaargezet in het bestand `HR_default.csv`. Dit bevat alle informatie voor de berekeningen voor overslag en waterstand. 
 Het is ook mogelijk dit bestand automatisch te vullen op basis van een shapefile met beoordelingsgegevens, en de shapefile van de vakindeling. 
 Zie daarvoor de workflow [automatisch genereren van invoer voor Hydra-Ring berekeningen](link).
 
