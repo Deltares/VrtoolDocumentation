@@ -7,7 +7,7 @@ Handleiding veiligheidsrendement
 ============================================
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Handleiding/index
    Achtergronden/index
