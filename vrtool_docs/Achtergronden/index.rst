@@ -6,7 +6,7 @@ Achtergronden
 
    Veiligheidsrendement
    Preprocessing_dijkbekleding
-   Betrouwbaarheidsmodellen
+   Betrouwbaarheidsmodellen/index
    Maatregelen/index
    Kosten/index
    Optimalisatiealgoritme

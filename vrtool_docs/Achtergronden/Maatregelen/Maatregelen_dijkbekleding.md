@@ -17,7 +17,7 @@ Het toepassen van de maatregelen wordt aan de hand van het volgende voorbeeld to
 
 De faalkanseis voor GEBU bedraagt 1/400.000 per jaar. De faalkanseis voor ZST is gelijk aan 1/800.000 per jaar. Voor het dijkvak worden de relaties uit Figuur 1 gehanteerd. De grasbekleding met een overgang op 3,0 m+NAP voldoet aan de eis in 2025, maar niet meer in 2100. De steenbekleding met een dikte van 30 cm voldoet niet de eis en is de bijbehorende faalkans gelijk aan ca. 1/10.000 per jaar.
 
-![Fig1.PNG](Fig1.PNG)
+![Fig1_maatregel_dijkbekleding.PNG](Fig1_maatregel_dijkbekleding.PNG)
 
 Figuur 1 Links: relatie tussen de overgang en de faalkans van de grasbekleding; rechts: relatie tussen de toplaagdikte en de faalkans van de steenbekleding.
 
@@ -36,3 +36,4 @@ In het geval van Optie 2 geldt:
 - Totale faalkans bekleding (optelsom): 2,53E-06 per jaar in 2025 en 1,68E-05 per jaar in 2100
 
 Optie 2 is effectiever dan Optie 1, omdat de faalkansen in 2025 en in 2100 dan lager zijn.
+
