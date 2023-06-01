@@ -1,4 +1,4 @@
-# Betrouwbaarheidsmodellen dijkbekleding
+# Validatie dijkbekleding model
 
 De aanpak die voor de steenbekleding wordt gehanteerd is gevalideerd voor enkele dijkprofielen in traject 26-3.
 
