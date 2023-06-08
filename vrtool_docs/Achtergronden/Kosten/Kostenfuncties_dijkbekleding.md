@@ -25,16 +25,16 @@ Waarin:
 
 Voor het geval waarin de nieuwe steenbekleding met toplaagdikte D aangebracht wordt op een locatie waar al een steenbekleding ligt wordt de kost per dijkvlak als volgt afgeleid:
 
-Kost per dijkvlak = A * (Kostafvoeren + Kostzuilen(D)) * (1 + BTW)
+Kost per dijkvlak = A * (Kostafvoeren + Kostzuilen(D)) * Opslagfactor
 
 Voor het geval waarin de nieuwe steenbekleding met toplaagdikte D aangebracht wordt op een locatie met gras wordt de kost voor het opnemen en afvoeren van oude steenbekleding niet meegerekend:
 
-Kost per dijkvlak = A * Kostzuilen(D) * (1 + BTW)
+Kost per dijkvlak = A * Kostzuilen(D) * Opslagfactor
 
 Waarin:
 - Kostafvoer – kost van het opnemen en afvoeren van de oude steenbekleding [in euro per m2 excl. BTW]
 - Kostzuilen – kost van het leveren en aanbrengen van betonzuilen, afhankelijk van de toplaagdikte [in euro per m2 excl. BTW]
 - D – toplaagdikte nieuwe steenbekleding [m]
-- BTW = 1.21
+- Opslagfactor = 2,509
 
 De totale kosten worden berekend door de kosten per vlak bij elkaar op te tellen. Voor de kosten in 2100 wordt een discontovoet gebruikt.

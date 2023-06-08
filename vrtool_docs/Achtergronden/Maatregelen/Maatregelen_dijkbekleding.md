@@ -4,7 +4,7 @@ Een maatregel wordt gedefinieerd als een ontwerp van de dijkbekleding (per locat
 - Hoogte van de overgang,
 - Toplaagdikte van de steenbekleding die bij een bepaalde faalkans hoort.
 
-Voor een dergelijke maatregel worden vervolgens de faalkans van de grasbekleding en de faalkans van de steenbekleding afgeleid. 
+Voor een dergelijke maatregel worden de faalkans van de grasbekleding en de faalkans van de steenbekleding (per dijkvlak) afgeleid. Vervolgens wordt het maximum van de kansen per dijkvlak berekend. Dit maximum wordt bij de faalkans van de grasbekleding opgeteld om de gecombineerde faalkans van de bekleding te verkrijgen.
 
 Het toepassen van de maatregelen wordt aan de hand van het volgende voorbeeld toegelicht, waarin een fictief dijkvak in traject 26-3 (Oosterschelde) wordt beschouwd. De signaleringswaarde van het dijktraject is 1/10.000 per jaar. De onderstaande tabel presenteert de bekledingstypen per vlak; de steenbekleding bevindt zich tussen -0,27 en 3,0 m+NAP (type 26; 26,1) de overgang naar de grasbekleding ligt op 3,0 m+NAP (type 20). 
 
