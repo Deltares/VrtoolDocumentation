@@ -4,8 +4,8 @@ This is the repository containing all the user's  documentation related to the e
 
 - [Veiligheidsrendement](https://github.com/Deltares/Veiligheidsrendement/) (or  `vrtool`).
     - Includes the database definition and a `ORM` wrapper.
-- [Veiligheidsrendement Tools](https://github.com/Deltares/VrToolPreprocess) (or `vrtoolpreprocess`). A set of tools for pre- and post-processing data for the `vrtool`.
-- Data Dashboard (to be defined).
+- [Veiligheidsrendement Tools](https://github.com/Deltares/VRSuiteUtils) (or `vrtoolpreprocess`). A set of tools for pre- and post-processing data for the `vrtool`.
+- [Data Dashboard](https://github.com/Deltares/VrtoolDashboard). A web interface data viewer with all possible computation scenarios and results related to a given database.
 
 # Project structure
 ```
