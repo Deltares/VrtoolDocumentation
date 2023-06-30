@@ -6,4 +6,4 @@ Voor het bepalen van de overslag betrouwbaarheid wordt de volgende invoer gebrui
 
 Deze invoer wordt in de preprocessing klaargezet middels Hydra-Ring .
 
-Op basis van een jaartal wordt de betrouwbaarheidsindex van een kruinhoogte geinterpoleerd. 
+Op basis van een jaartal wordt de betrouwbaarheidsindex van een kruinhoogte geinterpoleerd. Wanneer relevant wordt de kruindaling meegenomen in deze interpolatie.
