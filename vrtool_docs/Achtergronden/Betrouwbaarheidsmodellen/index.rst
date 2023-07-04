@@ -7,4 +7,6 @@ Betrouwbaarheidsmodellen
    Waterstanden
    Overslag
    Piping
+   Binnenwaartse macrostabiliteit
    Dijkbekleding
+   Kunstwerken

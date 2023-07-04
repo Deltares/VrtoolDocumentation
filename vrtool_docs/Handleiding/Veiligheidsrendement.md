@@ -1,9 +1,28 @@
-# Veiligheidsrendement
+# Veiligheidsrendement in het kort
+In Nederland moeten primaire waterkeringen voldoen aan eisen op trajectniveau, die zijn vastgelegd in de Waterwet (in de toekomst Omgevingswet). Deze eisen zijn naast op slachtofferrisico’s ook gebaseerd op basis van een Maatschappelijke Kosten Baten Analyse (MKBA), waarbij gekeken wordt naar de beste manier om de veiligheid te waarborgen tegen zo laag mogelijke kosten. Daarbij zijn versterkingskosten (op trajectniveau) en reductie van het overstromingsrisico tegen elkaar afgewogen. 
 
-## Wat is het Veiligheidsrendement?
+Binnen het onderzoeksprogramma AllRisk heeft de Technische Universiteit Delft in samenwerking met Deltares en Waterschap Rivierenland een methode ontwikkeld waarmee de versterkingsopgave op trajectniveau geoptimaliseerd kan worden. Deze methode wordt de veiligheidsrendementmethode genoemd. 
 
-## Doel van het Veiligheidsrendement
+De veiligheidsrendementmethode richt zich op het optimaliseren van investeringen op systeemniveau. In de bestaande praktijk wordt vaak op basis van doorsnede-eisen per faalmechanisme bepaald wat de opgave is of welke versterkingsmaatregel moet worden getroffen. Dit betekent echter dat de toelaatbare faalkans op dezelfde wijze wordt verdeeld over alle dijkvakken en mechanismen, wat in veel gevallen inefficiënt is omdat dijken niet overal hetzelfde zijn en de kosten van dijkversterking sterk kunnen verschillen per locatie en per mechanisme. Een belangrijk verschil is bijvoorbeeld de aanwezige bebouwing/ruimte voor versterking, en de typen maatregelen die beschikbaar zijn voor verschillende mechanismen.
 
-## Wat doet Veiligheidsrendement wel en niet?
+Met name bij macrostabiliteit en piping is de trajectfaalkans ongeveer gelijk aan de som van de faalkansen van de dijkvakken (bij kleine kansen). Dit betekent dat elke verbetering aan elk dijkvak bijdraagt aan de trajectveiligheid. De veiligheidsrendementmethode kijkt enkel naar de trajecteis, waardoor er kan worden geoptimaliseerd over drie vrijheidsgraden: tijd, faalmechanismen en ruimte (dijkvakken). Voor elk punt in de tijd wordt zo de optimale configuratie van dijkvakken bepaald die voldoet aan de trajecteis.
 
-## Disclaimers
+Ten eerste wordt door te optimaliseren over de faalmechanismen de faalkansruimte optimaal verdeeld, waardoor de meeste veiligheidswinst wordt geboekt per geïnvesteerde euro. Omdat kosten voor versterken sterk kunnen verschillen tussen mechanismen, levert dit veel winst op. Zo zijn maatregelen voor verbetering van binnenwaartse stabiliteit in dichtbebouwd gebied bijvoorbeeld vaak duurder dan maatregelen voor piping. 
+
+Ten tweede wordt door de optimalisatie per vak de winst van deze verdeling groter: dure vakken met dure versterkingen voor specifieke mechanismen worden enigszins ontzien, terwijl er juist wordt geïnvesteerd in een extra sterke dijk als dat relatief voordelig is. Beide punten leveren veel winst op omdat de kostenfuncties per dijkvak vaak knikken vertonen, bijvoorbeeld in geval van bebouwing, waarbij moet worden overgeschakeld op een duurdere versterkingsmaatregel. De veiligheidsrendementmethode optimaliseert hierin. 
+
+Tot slot kunnen door in de tijd te optimaliseren versterkingen soms worden uitgesteld, bijvoorbeeld als er nu nog geen kruinhoogtetekort is, maar dit in de toekomst wel het geval zal zijn. Op deze manier kan de veiligheid worden gewaarborgd zonder onnodige investeringen te doen. 
+
+Deze aanpak levert een veel efficiëntere versterking op dan de vaak gebruikte (uniforme) doorsnede-eisen. Bij SAFE blijken de totale LCC 30-50% lager uit te vallen dan wanneer bij een configuratie op basis van de hierboven beschreven aanpak o.b.v. doorsnede-eisen per faalmechanisme (Klerk et al., 2021). De winst van de veiligheidsrendementmethode komt voort uit de combinatie van de eerder genoemde factoren ruimte, tijd en mechanismen. 
+
+Opgemerkt moet worden dat ook bij de veiligheidsrendementmethode sommige dijkvakken versterkt moeten worden: zonder het versterken van vakken die op zichzelf al niet voldoen aan de trajecteis kan de trajecteis immers nooit gehaald worden. Bij veiligheidsrendementberekeningen wordt geïnvesteerd op basis van kosten-batenverhouding, maar in ieder geval zo ver dat het traject in 2050 voldoet aan de ondergrens voor het traject. Bij vergelijkende berekeningen op basis van doorsnede-eisen wordt een ontwerp gemaakt wat in 2075 voldoet aan de doorsnede-eisen. Het overstromingsrisico wordt bepaald voor een horizon van 100 jaar (tot 2125).
+
+In de analyses worden aannames gedaan over de kosten. Dit zijn geen ramingen, maar grove inschattingen van de te verwachten kosten, die gebaseerd zijn op KOSWAT en binnen SAFE ook geverifieerd aan de hand van SSK ramingen uit de versterking. Binnen het lopende innovatieproject wordt ook gewerkt aan hernieuwde kostenfuncties en -kentallen. 
+
+## Doel van het innovatieproject 'Versterkingsaanpak vanuit Veiligheidsrendement'
+Binnen het innovatieproject Versterkingsaanpak vanuit Veiligheidsrendement wordt de methode geoperationaliseerd zodat deze gebruikt kan worden als ondersteuning bij het vertalen van beoordelingsresultaten naar beslisinformatie voor de programmering van dijkversterkingen. Daarvoor wordt een toolbox ontwikkeld om beoordelingsresultaten te vertalen naar invoer voor de rekenmethode, wordt de rekenmethode uitgebreid, en wordt gewerkt aan een dashboard om resultaten te ontsluiten en analyseren.
+
+## Disclaimer
+De veiligheidsrendementmethode wordt op dit moment binnen de proefvlucht van het innovatieproject getest. Deze ervaringen zijn belangrijk om de aanpak later landsbreed te kunnen toepassen. 
+Een aandachtspunt is het op de juist wijze interpreteren van de resultaten: omdat de methode wordt toegepast in de fase voor een versterking is het nog niet mogelijk alle gebiedsinformatie en kennis die normaliter in een versterkingsproject voor handen is te benutten. Daarom wordt een optimalisatie gedaan op basis van parameterisaties en een set standaardmaatregelen. Het is de verantwoordelijkheid van de gebruiker om in te schatten of deze parameterisaties lokaal kloppen, en in hoeverre deze de resultaten beinvloeden. Daarvoor is binnen het innovatieproject een gebruikersgroep in het leven geroepen.
+
