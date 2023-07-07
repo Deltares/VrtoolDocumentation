@@ -4,6 +4,9 @@ Preprocessing
 .. toctree::
    :maxdepth: 0
 
-   installatie
-   test
+   Vakindeling
+   Overtopping
+   Macro
+   Piping
+   Bekleding
 

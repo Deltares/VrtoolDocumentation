@@ -8,9 +8,15 @@
 .. include:: README.md
 
 
+
+
+
 .. toctree::
-   :titlesonly:
+   :hidden:
 
+
+   Installaties/index
    Preprocessing/index
-
-
+   VRTool/index
+   Postprocessing/index
+   Achtergronden/index
