@@ -3,8 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Handleiding veiligheidsrendement
+Veiligheidsrendement
 ============================================
+
+Waar gaat het over?
+
+
+Waarom is het nuttig?
+
+Hoe ga je aan de slag?
+
+
+
 
 .. toctree::
    :titlesonly:
