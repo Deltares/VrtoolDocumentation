@@ -1,1 +1,1 @@
-# Preprocssing voor bekledingen
+# Preprocessing voor bekledingen
