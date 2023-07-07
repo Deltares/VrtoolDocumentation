@@ -14,11 +14,7 @@ Hoe ga je aan de slag?
 
 .. raw:: html
 
-   <a href="Preprocessing">
-      .. image:: test_linkpostprocessing.PNG
-         :alt: Alternative Text
-   </a>
-
+   <a href="Preprocessing/test.md">Link Text</a>
 
 
 
