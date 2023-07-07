@@ -15,7 +15,7 @@ Waarom is het nuttig?
 Hoe ga je aan de slag?
 
 
-
+![test link](/Preprocessing/installatie)
 
 .. toctree::
    :titlesonly:
