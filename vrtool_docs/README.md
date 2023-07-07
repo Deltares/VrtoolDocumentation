@@ -14,6 +14,8 @@ Hoe ga je aan de slag?
 
 +---------------+---------------+---------------+
 
-.. figure:: test_linkpreprocessing.PNG | .. figure:: test_linkVRTool.PNG | .. figure:: test_linkpostprocessing.PNG
+.. figure:: test_linkpreprocessing.PNG 
+| .. figure:: test_linkVRTool.PNG 
+| .. figure:: test_linkpostprocessing.PNG
 
 +---------------+---------------+---------------+
