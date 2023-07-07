@@ -11,26 +11,12 @@ Waarom is het nuttig?
 Hoe ga je aan de slag?
 -------------------------------------------
 
++---------------------+---------------------+---------------------+
+| `Link 1 <file1.md>`_ | `Link 2 <file2.md>`_ | `Link 3 <file3.md>`_ |
++=====================+=====================+=====================+
+| .. image:: test_linkpostprocessing.PNG | .. image:: test_linkVRTool.PNG | .. image:: test_linkpostprocessing.PNG |
++---------------------+---------------------+---------------------+
 
-.. raw:: html
-
-   <table>
-     <tr>
-       <td>
-         <a href="Preprocessing/test.md">
-           <img src="test_linkpreprocessing.PNG" alt="Image 1" />
-         </a>
-       </td>
-       <td>
-         <a href="Preprocessing/test.md">
-           <img src="test_linkVRTool.PNG" alt="Image 2" />
-         </a>
-       </td>
-       <td>
-         <a href="Preprocessing/test.md">
-           <img src="test_linkpostprocessing.PNG" alt="Image 3" />
-         </a>
-       </td>
-     </tr>
-   </table>
-
+.. _Link 1 <Preprocessing/test.md>:
+.. _Link 2 <Preprocessing/test.md>:
+.. _Link 3 <Preprocessing/test.md>:
