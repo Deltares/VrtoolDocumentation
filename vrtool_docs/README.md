@@ -14,7 +14,7 @@ Hoe ga je aan de slag?
 
 .. raw:: html
 
-   <a href="Preprocessing/test.md">Link Text</a>
+   <a href="vrtool_docs/Preprocessing/test.md">Link Text</a>
 
 
 
