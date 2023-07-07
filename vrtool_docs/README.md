@@ -11,11 +11,18 @@ Waarom is het nuttig?
 Hoe ga je aan de slag?
 -------------------------------------------
 
-+---------------------+---------------------+---------------------+
-| `Link 1 <file1.md>` | `Link 2 <file2.md>` | `Link 3 <file3.md>` |
-+=====================+=====================+=====================+
-| .. image:: test_linkpostprocessing.PNG | .. image:: test_linkVRTool.PNG | .. image:: test_linkpostprocessing.PNG |
-+---------------------+---------------------+---------------------+
+- `Link 1 <file1.md>`_
+
+  .. image:: test_linkpreprocessing.PNG
+
+- `Link 2 <file2.md>`_
+
+  .. image:: test_linkVRTool.PNG
+
+- `Link 3 <file3.md>`_
+
+  .. image:: test_linkpostprocessing.PNG
+
 
 .. _Link 1 <Preprocessing/test.md>:
 .. _Link 2 <Preprocessing/test.md>:
