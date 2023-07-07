@@ -2,13 +2,13 @@ Veiligheidsrendement
 ============================================
 
 
-# Waar gaat het over?
+## Waar gaat het over?
 
 
-# Waarom is het nuttig?
+## Waarom is het nuttig?
 
 
-# Hoe ga je aan de slag?
+## Hoe ga je aan de slag?
 
 
 <div style="display: flex;">

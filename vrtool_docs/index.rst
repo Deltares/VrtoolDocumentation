@@ -6,7 +6,7 @@
 Veiligheidsrendement
 ============================================
 
-index
+.. include:: index.md
 
 .. toctree::
    :titlesonly:
