@@ -11,6 +11,7 @@ Waar gaat het over?
 
 Waarom is het nuttig?
 
+
 Hoe ga je aan de slag?
 
 
@@ -19,9 +20,7 @@ Hoe ga je aan de slag?
 .. toctree::
    :titlesonly:
 
-   Handleiding/index
-   Achtergronden/index
-
+   Preprocessing/index
 
 
 Indices and tables
