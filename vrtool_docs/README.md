@@ -12,9 +12,9 @@ Hoe ga je aan de slag?
 -------------------------------------------
 
 
-.. raw:: html
-
-   <a href="vrtool_docs/Preprocessing/test.md">Link Text</a>
 
 
+.. figure:: test_linkVRTool.PNG
+   :target: Preprocessing/test.md
 
+   Alternative Text
