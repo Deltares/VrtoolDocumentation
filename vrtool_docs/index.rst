@@ -6,17 +6,11 @@
 Veiligheidsrendement
 ============================================
 
-.. include:: index.md
+.. include:: README
+
 
 .. toctree::
    :titlesonly:
-
    Preprocessing/index
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

@@ -5,4 +5,5 @@ Preprocessing
    :maxdepth: 0
 
    installatie
+   test
 
