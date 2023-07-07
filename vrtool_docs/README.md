@@ -23,3 +23,13 @@ Hoe ga je aan de slag?
 .. figure:: test_linkpostprocessing.PNG
    :target: Preprocessing/test.md
 +---------------+---------------+---------------+
+
++-------------------+-------------------+-------------------+
+| .. raw:: html                                    |        |        |
+|                                                    |        |        |
+|   <a href="Preprocessing/test.md">                     |   <a href="Preprocessing/test.md">                     |   <a href="Preprocessing/test.md">                     |
+|      .. test_linkpreprocessing.PNG                 |      .. image:: test_linkVRTool.PNG                 |      .. image:: test_linkpostprocessing.PNG                 |
+|         :width: 300px                              |         :width: 300px                              |         :width: 300px                              |
+|   </a>                                            |   </a>                                            |   </a>                                            |
+|                                                    |        |        |
++-------------------+-------------------+-------------------+
