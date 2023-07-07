@@ -6,7 +6,7 @@
 Veiligheidsrendement
 ============================================
 
-.. include:: README
+.. include:: README.md
 
 
 .. toctree::
