@@ -15,11 +15,11 @@ Hoe ga je aan de slag?
 
 
 .. figure:: test_linkpreprocessing.PNG
-   :target: Preprocessing/test.md
+   :target: test1.md
 
 .. figure:: test_linkVRTool.PNG
-   :target: Preprocessing/test.md
+   :target: test1.md
 
 .. figure:: test_linkpostprocessing.PNG
-   :target: Preprocessing/test.md
+   :target: test1.md
 
