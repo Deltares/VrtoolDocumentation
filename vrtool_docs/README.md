@@ -11,7 +11,23 @@ Waarom is het nuttig?
 Hoe ga je aan de slag?
 -------------------------------------------
 
+.. grid:: 3x1
 
+   .. figure:: Preprocessing/test.md
+
+      Link Text 1_
+   
+   .. figure:: Preprocessing/test.md
+
+      Link Text 2_
+   
+   .. figure:: Preprocessing/test.md
+
+      Link Text 3_
+
+.. _Link Text 1: Preprocessing/test.md
+.. _Link Text 2: Preprocessing/test.md
+.. _Link Text 3: Preprocessing/test.md
 
 +---------------+---------------+---------------+
 .. figure:: test_linkpreprocessing.PNG
@@ -23,13 +39,3 @@ Hoe ga je aan de slag?
 .. figure:: test_linkpostprocessing.PNG
    :target: Preprocessing/test.md
 +---------------+---------------+---------------+
-
-+-------------------+-------------------+-------------------+
-| .. raw:: html                                    |        |        |
-|                                                    |        |        |
-|   <a href="Preprocessing/test.md">                     |   <a href="Preprocessing/test.md">                     |   <a href="Preprocessing/test.md">                     |
-|      .. image:: test_linkpreprocessing.PNG                 |      .. image:: test_linkVRTool.PNG                 |      .. image:: test_linkpostprocessing.PNG                 |
-|         :width: 300px                              |         :width: 300px                              |         :width: 300px                              |
-|   </a>                                            |   </a>                                            |   </a>                                            |
-|                                                    |        |        |
-+-------------------+-------------------+-------------------+
