@@ -28,7 +28,7 @@ Hoe ga je aan de slag?
 | .. raw:: html                                    |        |        |
 |                                                    |        |        |
 |   <a href="Preprocessing/test.md">                     |   <a href="Preprocessing/test.md">                     |   <a href="Preprocessing/test.md">                     |
-|      .. figure:: test_linkpreprocessing.PNG                 |      .. figure:: test_linkVRTool.PNG                 |      .. figure:: test_linkpostprocessing.PNG                 |
+|      .. image:: test_linkpreprocessing.PNG                 |      .. image:: test_linkVRTool.PNG                 |      .. image:: test_linkpostprocessing.PNG                 |
 |         :width: 300px                              |         :width: 300px                              |         :width: 300px                              |
 |   </a>                                            |   </a>                                            |   </a>                                            |
 |                                                    |        |        |
