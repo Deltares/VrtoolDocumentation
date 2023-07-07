@@ -14,7 +14,12 @@ Hoe ga je aan de slag?
 
 
 
+.. figure:: test_linkpreprocessing.PNG
+   :target: Preprocessing/test.md
+
 .. figure:: test_linkVRTool.PNG
    :target: Preprocessing/test.md
 
-   Alternative Text
+.. figure:: test_linkpostprocessing.PNG
+   :target: Preprocessing/test.md
+
