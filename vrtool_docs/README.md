@@ -11,17 +11,33 @@ Waarom is het nuttig?
 Hoe ga je aan de slag?
 -------------------------------------------
 
-- `Link 1 <file1.md>`_
 
-  .. image:: test_linkpreprocessing.PNG
+Link 1
+------
 
-- `Link 2 <file2.md>`_
+.. figure:: test_linkpreprocessing.PNG
 
-  .. image:: test_linkVRTool.PNG
+   :ref:`Link 1 <link1>`
 
-- `Link 3 <file3.md>`_
+.. _link2:
 
-  .. image:: test_linkpostprocessing.PNG
+Link 2
+------
+
+.. figure:: test_linkVRTool.PNG
+
+   :ref:`Link 2 <link2>`
+
+.. _link3:
+
+Link 3
+------
+
+.. figure:: test_linkpostprocessing.PNG
+
+   :ref:`Link 3 <link3>`
+
+
 
 
 .. _Link 1 <Preprocessing/test.md>:
