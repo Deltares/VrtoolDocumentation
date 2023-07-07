@@ -2,13 +2,16 @@ Veiligheidsrendement
 ============================================
 
 
-## Waar gaat het over?
+Waar gaat het over?
+-------------------------------------------
+
+Waarom is het nuttig?
+-------------------------------------------
+
+Hoe ga je aan de slag?
+-------------------------------------------
 
 
-## Waarom is het nuttig?
-
-
-## Hoe ga je aan de slag?
 
 .. raw:: html
 
