@@ -12,7 +12,7 @@ Hoe ga je aan de slag?
 -------------------------------------------
 
 +---------------------+---------------------+---------------------+
-| `Link 1 <file1.md>`_ | `Link 2 <file2.md>`_ | `Link 3 <file3.md>`_ |
+| `Link 1 <file1.md>` | `Link 2 <file2.md>` | `Link 3 <file3.md>` |
 +=====================+=====================+=====================+
 | .. image:: test_linkpostprocessing.PNG | .. image:: test_linkVRTool.PNG | .. image:: test_linkpostprocessing.PNG |
 +---------------------+---------------------+---------------------+
