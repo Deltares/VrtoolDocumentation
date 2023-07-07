@@ -6,16 +6,7 @@
 Veiligheidsrendement
 ============================================
 
-Waar gaat het over?
-
-
-Waarom is het nuttig?
-
-
-Hoe ga je aan de slag?
-
-
-![test link](/Preprocessing/installatie)
+index
 
 .. toctree::
    :titlesonly:
