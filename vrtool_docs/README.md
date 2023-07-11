@@ -8,7 +8,7 @@ Veiligheidsrendement is een methode om op trajectniveau dijkversterkingsmaatrege
 
 Waarom is het nuttig?
 -------------------------------------------
-Dankzij de veiligheidsrendement metnde wordt een optimale investeringsvolgorde voor verbeteringen aan een dijktraject. Zo kunnen veel kosten en tijd wordt bespaart.
+Met de veiligheidsrendement kan een optimale investering voor verbeteringen aan een dijktraject worden bepaald. Hierdoor worden versterkingen goedkoper, en het ondersteunt het definieren van projecten.
 
 Hoe ga je aan de slag?
 -------------------------------------------
