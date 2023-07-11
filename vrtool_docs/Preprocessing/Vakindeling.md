@@ -4,7 +4,7 @@ Bij de veiligheidsrendement methode moet één vakindeling gemaakt worden die vo
 
 ## Stap 1: Excel invoerbestand invullen
 
-De basis voor het genereren van de vakindeling is het invoerbestand `Vakindeling.csv`. Dit bestand is terug te vinden in: ```.\VRSuiteUtils-main\preprocessing\default_files``` in de ZIP bestand die bij de installatie van de [preprocessing script](..\Installaties\VRUtils.md) is gedownload.
+De basis voor het genereren van de vakindeling is het invoerbestand `Vakindeling.csv`. Dit bestand is terug te vinden in: ```.\VRSuiteUtils-main\preprocessing\default_files``` in de folder met de uitgepakte installatie voor de [preprocessing](..\Installaties\VRUtils.md).
 
 Dit bestand heeft de volgende kolommen die ingevul dmoeten worden:
 
