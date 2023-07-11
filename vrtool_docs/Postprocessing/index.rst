@@ -1,8 +1,11 @@
-Postprocessing
+Dashboard
 =======================================
 
+*Tekst komt nog*
+
+
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 1
 
    Running the dashboard
 
