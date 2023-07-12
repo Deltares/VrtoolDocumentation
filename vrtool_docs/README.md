@@ -1,14 +1,11 @@
-Veiligheidsrendement
+Versterkingsaanpak vanuit Veiligheidsrendement
 ============================================
 
-
-Waar gaat het over?
+Doel van het project
 -------------------------------------------
-Veiligheidsrendement is een methode om op trajectniveau dijkversterkingsmaatregelen te optimaliseren op basis van totale kosten (risico en investeringskosten). 
 
-Waarom is het nuttig?
--------------------------------------------
-Met de veiligheidsrendement kan een optimale investering voor verbeteringen aan een dijktraject worden bepaald. Hierdoor worden versterkingen goedkoper, en het ondersteunt het definieren van projecten.
+Binnen het HWBP innovatieproject Versterkingsaanpak vanuit Veiligheidsrendement wordt de veiligheidsrendementmethode ingezet om beoordelingsresultaten te vertalen naar concrete beslisinformatie voor het prioriteren en programmeren van dijkversterkingen. De veiligheidsrendementmethode is een methode waarmee op trajectniveau dijkversterkingsmaatregelen kunnen worden geoptimaliseerd op basis van totale kosten (risico en investeringskosten). 
+
 
 Hoe ga je aan de slag?
 -------------------------------------------
@@ -16,32 +13,21 @@ Hoe ga je aan de slag?
 De Veiligheidsrendement methode bevat vier stappen. 
 
 
-.. raw:: html
-
-   <a href="Installatie">Stap 0: Installatie</a>
-
-
+:doc:`Stap 1: Installatie <Installaties/index>`
+**********************************************************************
 Om de Veiligheidsrendement toe te passen zijn een paar installaties essentieel.
 
-.. raw:: html
 
-   <a href="Preprocessing">Stap 1: Preprocessing</a>
-
-In deze stap wordt alle benodigde invoer in de juiste format gezet. 
-
-.. raw:: html
-
-   <a href="VRTool">Stap 2: VRTool</a>
-
-In deze stap worden alle berekeningen gemaakt voor de optimalisatie van dijkversterkingen. Dit kan worden aangestuurd met de `CLI <VRTool/Running the VRTool.md>`
-
-.. raw:: html
-
-   <a href="Postprocessing">Stap 3: Postprocessing</a>
-
-Aan de hand van een `dashboard <Postprocessing/Running the dashboard.md>` kunnen de resultaten worden gevisualiseerd. Op basis hiervan kan op een onderbouwd manier de programmering van dijkversterkingen gemaakt worden. 
+:doc:`Stap 2: Preprocessing <Preprocessing/index>`
+*********************************************************
+In deze stap wordt alle benodigde invoer en vakindeling in de juiste format gezet. 
 
 
+:doc:`Stap 3: VRTool <VRTool/index>`
+*********************************************************
+In deze stap worden alle berekeningen gemaakt voor de optimalisatie van dijkversterkingen. Dit kan worden aangestuurd met de :doc:`VRTool <VRTool/index>`.
 
 
-
+:doc:`Stap 4: Dashboard <Postprocessing/index>`
+*********************************************************
+Aan de hand van een :doc:`Dashboard <Postprocessing/index>` kunnen de resultaten worden gevisualiseerd. Op basis hiervan kan op een onderbouwd manier de programmering van dijkversterkingen gemaakt worden. 

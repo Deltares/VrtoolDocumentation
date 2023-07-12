@@ -11,9 +11,9 @@
 
 
 
+
 .. toctree::
    :hidden:
-
 
    Installaties/index
    Preprocessing/index
