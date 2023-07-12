@@ -3,7 +3,9 @@ Versterkingsaanpak vanuit Veiligheidsrendement
 
 Doel van het project
 -------------------------------------------
+
 Binnen het HWBP innovatieproject Versterkingsaanpak vanuit Veiligheidsrendement wordt de veiligheidsrendementmethode ingezet om beoordelingsresultaten te vertalen naar concrete beslisinformatie voor het prioriteren en programmeren van dijkversterkingen. De veiligheidsrendementmethode is een methode waarmee op trajectniveau dijkversterkingsmaatregelen kunnen worden geoptimaliseerd op basis van totale kosten (risico en investeringskosten). 
+
 
 Hoe ga je aan de slag?
 -------------------------------------------

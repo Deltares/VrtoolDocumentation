@@ -4,7 +4,7 @@ Verticaal Zanddicht Geotextiel (VZG) is een innovatieve manier om 'piping' te vo
 
 ![VZG.png](VZG.png)
 
-Een VZG sluit falen door piping vrijwel uit, maar heeft geen invloed op stabiliteit en overslag. Voor een VZG gebruiken we onderstaande foutenboom (NB: deze is algemeen voor grondverbeteringen, maar ook voor VZG van teoapssing):
+Een VZG sluit falen door piping vrijwel uit, maar heeft geen invloed op stabiliteit en overslag. Voor een VZG gebruiken we onderstaande foutenboom (NB: deze is algemeen voor grondverbeteringen, maar ook voor VZG van toepassing):
 
 ![VZG_foutenboom.png](VZG_foutenboom.png)
 
