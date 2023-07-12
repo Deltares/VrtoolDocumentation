@@ -1,3 +1,15 @@
 # Geotechnische instabiliteit
 
-*Tekst komt nog*
+Voor geotechnische instabiliteit bevat de preprocessing maar 1 stap: het invullen van het invoerbestand `Stabiliteit_default.csv`. Dit bestand is terug te vinden in: ```.\VRSuiteUtils-main\preprocessing\default_files``` in de ZIP bestand die bij de installatie voor [preprocessing](..\Installaties\VRUtils.md) is gedownload.
+
+Dit bestand heeft de volgende kolommen die ingevul dmoeten worden:
+
+| Kolom       	 | 	         | Beschrijving                                                                                                                                                                                 	                                                                |
+|---------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| doorsnede     | Verplicht 	 | Referentie naar de doorsnede zoals opgegeven in vakindeling.                                                                                                                                     	                                                            |
+| scenario      | Verplicht 	 | Nummer wat verwijst naar het scenario.                                                                                                                                     	                                                                                  |
+| scenarionaam  | Optioneel 	 | Naam of omschrijving van het scenario.                                                                                                                                 	                                                                                      |
+| scenariokans  | Verplicht 	 | Kans op het scenario. Kansen per doorsnede moeten optellen tot 1.                                                                                                                                     	                                                       |
+| SF/beta       | Verplicht 	 | Of SF of Beta moet worden ingevoerd. Wanneer beide worden ingevoerd worden ze vergeleken en wordt doorgerekend met beta.                                                                                                                                    	 |
+| stixnaam      | Optioneel 	 | Naam voor de bijbehorende stixfile. Wanneer deze wordt opgegeven wordt met D-Stability gerekend.                                                                                                                                    	                         |
+| deklaagdikte  | Optioneel 	 | Dikte van de deklaag. Wanneer niet opgegeven wordt uitgegaan van defaultwaarden voor de verlenging van de berm. NB: opgeven is niet nodig wanneer een stix wordt gebruikt.                                                                                                                                 	                                                                                                                           |
