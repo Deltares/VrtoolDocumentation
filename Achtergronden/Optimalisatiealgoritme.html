@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Optimalisatiealgoritme &mdash; vrtool_docs  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Kostenfuncties dijkbekleding" href="Kosten/Kostenfuncties_dijkbekleding.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            vrtool_docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Installaties/index.html">Installaties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Preprocessing/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../VRTool/index.html">VRTool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Postprocessing/index.html">Dashboard</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Achtergronden</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Veiligheidsrendement.html">Veiligheidsrendement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Preprocessing_dijkbekleding.html">Preprocessing dijkbekleding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Betrouwbaarheidsmodellen/index.html">Betrouwbaarheidsmodellen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Maatregelen/index.html">Maatregelen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kosten/index.html">Kostenfuncties</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Optimalisatiealgoritme</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">vrtool_docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Achtergronden</a></li>
+      <li class="breadcrumb-item active">Optimalisatiealgoritme</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/Achtergronden/Optimalisatiealgoritme.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="optimalisatiealgoritme">
+<h1>Optimalisatiealgoritme<a class="headerlink" href="#optimalisatiealgoritme" title="Permalink to this heading"></a></h1>
+<p>Voor een optimalisatie worden de volgende stappen doorlopen:</p>
+<ul class="simple">
+<li><p>In make _optimization_input worden de dataframes met maatregelen vertaald naar matrices voor de optimalisatie. Daarbij worden maatregelen voor geotechnische mechanismen en hoogte gesplitst.</p></li>
+<li><p>Vervolgens wordt het initiële risico bepaald</p></li>
+<li><p>Daarna wordt stapsgewijs bepaald welke maatregel het beste is. Daarvoor worden achtereenvolgens:</p>
+<ul>
+<li><p>De kosten van de maatregelen bepaald</p></li>
+<li><p>Het risico door falen door overslag/geotechnische mechanismen ná uitvoering van een individuele maatregel</p></li>
+<li><p>Vervolgens wordt de BC-ratio op 2 manieren bepaald:</p>
+<ol class="arabic simple">
+<li><p>De BC-ratio (kosten/baten) van elke individuele maatregel</p></li>
+<li><p>Vervolgens wordt apart voor overslag gekeken naar de optimale combinatie van maatregelen voor overslag. Dit gebeurt met de functie OverflowBundling. De reden dat dit apart moet is dat de faalkans voor overslag i.t.t. geotechnisch falen niet bepaald wordt door de formule <img alt="Optimalisation_Eq1.png" src="../_images/Optimilisation_Eq1.PNG" /> , maar het zwakste vak dominant is. Zodoende kan het voorkomen dat het verhogen van de kruin van 1 vak een zeer lage BC-ratio heeft, maar van 2 vakken juist een hoge (bijv. als 2 vakken nagenoeg dezelfde β hebben).</p></li>
+</ol>
+</li>
+<li><p>Tot slot wordt vergeleken of een individuele maatregel (1) of een combinatie (2) de hoogste BC-ratio heeft. Deze maatregel wordt dan uitgevoerd, en de beginsituatie voor de volgende optimalisatiestap wordt aangepast met deze maatregel.</p></li>
+</ul>
+</li>
+<li><p>Wanneer het max aantal iteraties is bereikt, of de BC-ratio van de beste maatregel &lt; 0.1 stopt de optimalisatie.</p></li>
+<li><p>Vervolgens worden met de routine writeGreedyResults de resultaten opgeslagen.</p></li>
+</ul>
+<p>Omdat tot een BC-ratio van 0.1 wordt geoptimaliseerd is de laatste stap van de optimalisatie niet economisch optimaal. Met de functie makeSolution kan op 2 manier de optimale set maatregelen worden bepaald:</p>
+<ul class="simple">
+<li><p>‘SatisfiedStandard’ is de set maatregelen die in 2075 aan de trajecteis voldoet</p></li>
+<li><p>‘Optimal’ is de set maatregelen die economisch optimaal is (minimale totale kosten)</p></li>
+</ul>
+<p>In het algemeen functioneert de optimalisatieroutine goed, de meeste crashes worden veroorzaakt door ondeugdelijke invoer (bijv nan’s in de β van maatregelen)</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Kosten/Kostenfuncties_dijkbekleding.html" class="btn btn-neutral float-left" title="Kostenfuncties dijkbekleding" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Deltares.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

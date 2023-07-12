@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aan de slag &mdash; vrtool_docs  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            vrtool_docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../Installaties/index.html">Installaties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Preprocessing/index.html">Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../VRTool/index.html">VRTool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Postprocessing/index.html">Dashboard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Achtergronden/index.html">Achtergronden</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">vrtool_docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Aan de slag</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/Handleiding/Aan de slag.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="aan-de-slag">
+<h1>Aan de slag<a class="headerlink" href="#aan-de-slag" title="Permalink to this heading"></a></h1>
+<section id="structuur">
+<h2>Structuur<a class="headerlink" href="#structuur" title="Permalink to this heading"></a></h2>
+</section>
+<section id="installatie-instructies">
+<h2>Installatie-instructies<a class="headerlink" href="#installatie-instructies" title="Permalink to this heading"></a></h2>
+<section id="miniconda-of-anaconda">
+<h3>Miniconda of Anaconda<a class="headerlink" href="#miniconda-of-anaconda" title="Permalink to this heading"></a></h3>
+<p>Om de preprocessing en de VRTOOL te gebruiken is het nodig om <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">miniconda</a> of installed <a class="reference external" href="https://www.anaconda.com/download">Anaconda</a> te installeren.</p>
+</section>
+<section id="preprocessor">
+<h3>Preprocessor<a class="headerlink" href="#preprocessor" title="Permalink to this heading"></a></h3>
+<p>De preprocessor bestaat uit een python code die te installeren is via <a class="reference internal" href="#link"><span class="xref myst">LINK NAAR PREPROCESSING</span></a></p>
+</section>
+<section id="vrtool">
+<h3>VRTOOL<a class="headerlink" href="#vrtool" title="Permalink to this heading"></a></h3>
+<p>De VRTOOL bestaat uit een python code die te installeren is via <a class="reference internal" href="#link"><span class="xref myst">LINK NAAR VRTOOL</span></a></p>
+</section>
+<section id="dashboard">
+<h3>Dashboard<a class="headerlink" href="#dashboard" title="Permalink to this heading"></a></h3>
+<p>Het Dashboard bestaat uit een python code die te installeren is via <a class="reference internal" href="#link"><span class="xref myst">LINK NAAR Dashboard</span></a></p>
+</section>
+</section>
+<section id="python-environment-bouwen">
+<h2>Python environment bouwen<a class="headerlink" href="#python-environment-bouwen" title="Permalink to this heading"></a></h2>
+<p>Om miniconda of anaconda te gebruiken om de preprocessing of de VRTOOL te draaien is het belangrijk om een nieuwe python enviroment aan te maken.</p>
+<p>Dit kan door eerst een <code class="docutils literal notranslate"><span class="pre">environment.yml</span></code> file aan te maken met daarin:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">name</span><span class="p">:</span> <span class="n">vrtool_env</span>
+<span class="n">channels</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+  <span class="o">-</span> <span class="n">defaults</span>
+<span class="n">dependencies</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span><span class="p">::</span><span class="n">python</span><span class="o">=</span><span class="mf">3.10</span>
+  <span class="o">-</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span><span class="p">::</span><span class="n">openturns</span><span class="o">=</span><span class="mf">1.19</span>
+  <span class="o">-</span> <span class="n">pip</span>
+</pre></div>
+</div>
+<p>En daarna de command window van anaconda of miniconda te openen en de volgende twee commandline te draaien.</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span> <span class="pre">-f</span> <span class="pre">environment.yml</span> <span class="pre">-p</span> <span class="pre">vrtool_env</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">activate</span> <span class="pre">vrtool_env</span></code></p></li>
+</ol>
+<p><strong>==&gt; Hier ook poetry installatie uitleggen?</strong></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Deltares.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
