@@ -1,8 +1,8 @@
-# Geotechnische instabiliteit
+# Macrostabiliteit
 
-Voor geotechnische instabiliteit bevat de preprocessing maar 1 stap: het invullen van het invoerbestand `Stabiliteit_default.csv`. Dit bestand is terug te vinden in: ```.\VRSuiteUtils-main\preprocessing\default_files``` in de ZIP bestand die bij de installatie voor [preprocessing](..\Installaties\VRUtils.md) is gedownload.
+Voor macrostabiliteit bevat de preprocessing maar 1 stap: het invullen van het invoerbestand `Stabiliteit_default.csv`. Dit bestand is terug te vinden in ```\preprocessing\default_files``` in het uitgepakte ZIP bestand wat bij de installatie voor de [preprocessing](..\Installaties\VRUtils.md) is gedownload.
 
-Dit bestand heeft de volgende kolommen die ingevul dmoeten worden:
+Dit bestand heeft de volgende kolommen die ingevuld moeten worden:
 
 | Kolom       	 | 	         | Beschrijving                                                                                                                                                                                 	                                                                |
 |---------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

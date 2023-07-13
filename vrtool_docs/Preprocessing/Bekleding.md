@@ -1,3 +1,4 @@
-# Bekleding
+# Bekledingen
 
 *Tekst komt nog*
+

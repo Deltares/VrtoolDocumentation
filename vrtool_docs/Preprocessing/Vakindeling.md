@@ -4,7 +4,7 @@ Bij de veiligheidsrendement methode moet één vakindeling gemaakt worden die vo
 
 ## Stap 1: Excel invoerbestand invullen
 
-De basis voor het genereren van de vakindeling is het invoerbestand `Vakindeling.csv`. Dit bestand is terug te vinden in: ```.\VRSuiteUtils-main\preprocessing\default_files``` in de ZIP bestand die bij de installatie van de [preprocessing script](..\Installaties\VRUtils.md) is gedownload.
+De basis voor het genereren van de vakindeling is het invoerbestand `Vakindeling.csv`. Dit bestand is terug te vinden in: ```.\VRSuiteUtils-main\preprocessing\default_files``` in de folder met de uitgepakte installatie voor de [preprocessing](..\Installaties\VRUtils.md).
 
 Dit bestand heeft de volgende kolommen die ingevul dmoeten worden:
 
@@ -24,14 +24,14 @@ Belangrijk bij het genereren van de vakindeling zijn met name de `m_start` en `m
 
 **Let op:** 
 - De separator in de csv files moet een komma zijn, en het teken voor decimalen een punt.
-- De m_eind en m_start van alle vakken moeten overeen aan elkaar aansluiten
+- De m_eind en m_start van alle vakken moeten op elkaar aansluiten
 
 ## Stap 2: Command-Line Interface voorbereiden 
 
-Deze stap kan je overslaan als Anaconda Prompt al open staat en de juiste enviroment al geactiveerd is. Dit is het geval als bijvoorbeeld zojuist de [intallatie van de preprocssing is gemaakt](..\Installaties\VRUtiles.md).
+Deze stap kan je overslaan als Anaconda Prompt al open staat en de juiste enviroment al geactiveerd is. Dit is het geval als bijvoorbeeld zojuist de [installatie van de preprocssing is gemaakt](..\Installaties\VRUtiles.md).
 
 
-1. Open de Anaconda Prompt
+1. Open Anaconda Prompt
 
 ![Opening_Anaconda_promt.PNG](Opening_Anaconda_promt.PNG)
 
@@ -41,15 +41,15 @@ cd C:/link_naar_ZIP_file_map
 ```
 
 
-3. Activeer de preprocessing environment: 
+3. Activeer het environment van de preprocessor: 
 ```
 conda activate .env
 ```
-**Let op:** als je de environment een andere naam hebt gegeven, vervang ".env" dan door de naam die je aan de environment gegeven hebt.
+**Let op:** als je het environment een andere naam hebt gegeven, vervang ".env" dan door de naam die je aan het environment gegeven hebt.
 
 ## Stap 3: Script voor vakindeling runnen
 
-Via de **Command Line Interface (CLI)** kan de VR Preprocessing tool worden aangeroepen, zonder dat de gebruiker in de Python code hoeft te werken. Dit werkt als volgt:
+Via de **Command Line Interface (CLI)** kan de Preprocessing tool worden aangeroepen, zonder dat de gebruiker in de Python code hoeft te werken. Dit werkt als volgt:
 
 
 ```

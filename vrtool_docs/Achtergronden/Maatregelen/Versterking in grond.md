@@ -10,7 +10,7 @@ Bij een bermverbreding Δb wordt de berm verbreed met Δb. Dat wordt gedaan door
 
 ![Berm_aanbrengen.png](Berm_aanbrengen.png)
 
-Wanneer ook buitenwaarts versterkt kan worden wordt dit zover mogelijk gedaan, zie onderstaande figuur:
+Wanneer ook buitenwaarts versterkt kan worden wordt eerst zover mogelijk naar buiten versterkt (dit is een invoerparameter), zie onderstaande figuur:
 
 ![Berm_met_kruinverlegging.png](Berm_met_kruinverlegging.png)
 

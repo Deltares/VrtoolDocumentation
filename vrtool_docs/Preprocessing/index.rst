@@ -1,7 +1,11 @@
 Preprocessing
 =======================================
 
-De preprocessing bestaat uit het invullen van vijf invoerbestanden en soms het runnen van een python script voor de: vakindeling, waterstand, overslag, geotechnische instabiliteit, piping en bekleding. Meer informatie is hieronder te vinden.
+Met de preprocessing worden de gegevens voor het maken van een veiligheidsrendementberekening voorbereid. 
+Daarvoor moet als eerste een aantal invoerbestanden worden gevuld met de gegevens over de vakindeling, hydraulische randvoorwaarden (waterstand/overslag), piping, macrostabiliteit en bekledingen.
+
+*aanvullen met overzicht van alle workflows*
+
 
 .. toctree::
    :maxdepth: 1
