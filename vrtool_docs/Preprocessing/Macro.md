@@ -1,5 +1,15 @@
 # Macrostabiliteit
 
-Voor macrostabiliteit moet het default bestand Stabiliteit_default.csv worden gevuld met de relevante gegevens voor stabiliteit.
+Voor macrostabiliteit bevat de preprocessing maar 1 stap: het invullen van het invoerbestand `Stabiliteit_default.csv`. Dit bestand is terug te vinden in ```\preprocessing\default_files``` in het uitgepakte ZIP bestand wat bij de installatie voor de [preprocessing](..\Installaties\VRUtils.md) is gedownload.
 
-*Tekst komt nog*
+Dit bestand heeft de volgende kolommen die ingevuld moeten worden:
+
+| Kolom       	 | 	         | Beschrijving                                                                                                                                                                                 	                                                                |
+|---------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| doorsnede     | Verplicht 	 | Referentie naar de doorsnede zoals opgegeven in vakindeling.                                                                                                                                     	                                                            |
+| scenario      | Verplicht 	 | Nummer wat verwijst naar het scenario.                                                                                                                                     	                                                                                  |
+| scenarionaam  | Optioneel 	 | Naam of omschrijving van het scenario.                                                                                                                                 	                                                                                      |
+| scenariokans  | Verplicht 	 | Kans op het scenario. Kansen per doorsnede moeten optellen tot 1.                                                                                                                                     	                                                       |
+| SF/beta       | Verplicht 	 | Of SF of Beta moet worden ingevoerd. Wanneer beide worden ingevoerd worden ze vergeleken en wordt doorgerekend met beta.                                                                                                                                    	 |
+| stixnaam      | Optioneel 	 | Naam voor de bijbehorende stixfile. Wanneer deze wordt opgegeven wordt met D-Stability gerekend.                                                                                                                                    	                         |
+| deklaagdikte  | Optioneel 	 | Dikte van de deklaag. Wanneer niet opgegeven wordt uitgegaan van defaultwaarden voor de verlenging van de berm. NB: opgeven is niet nodig wanneer een stix wordt gebruikt.                                                                                                                                 	                                                                                                                           |
